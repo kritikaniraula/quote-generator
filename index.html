@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <title>quote generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--css link-->
+    <script src="https://kit.fontawesome.com/0ecbe17838.js"crossorigin="anonymous"></script>
+    <!--font awesome link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.13/dist/css/uikit.min.css" />
+    <!-- CSS only -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.13/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.13/dist/js/uikit-icons.min.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--google fonts-->
+</head>
+<body>
+    <div class="uk-container">
+        <div class="main-box">
+            <div class="uk-flex uk-flex-center">
+                <div class="uk-card uk-card-default  uk-card-body">
+                    <div class="uk-card-title">
+                        <div class="uk-flex uk-flex-center">
+                           <div class="title">Quote of the Day </div>
+                        </div>
+                    </div>
+                    <div class="uk-card-body">
+                        <div class="quote-area">
+                            <div class="uk-flex">
+                                <i class="fa-solid fa-quote-left"></i> 
+                                <div class="quotes" id="quoteText">The important thing is not to stop questioning. Curiosity has its own reason for existing. One cannot help but be in awe when one contemplates the mysteries of eternity, of life, of the marvellous structure of reality. It is enough if one tries to comprehend only a little of this mystery every day.</div>
+                                <i class="fa-solid fa-quote-right"></i>
+                            </div>
+                        </div>
+                        <div class="uk-flex uk-flex-right">
+                            <div class="author-name" id="quoteAuthor"><i>Albert Einstien</i></div>
+                        </div>
+                        <li class="uk-nav-divider"></li>
+                        <footer>
+                            <div class="uk-flex uk-flex-between">
+                                <div class="icons">
+                                    <div class="uk-flex ">
+                                        
+                                        <button id = "speaker" class="icon"><i class="fa-solid fa-volume-high"></i></button>
+                                     
+                                        <button id = "copy" class=" uk-margin-left icon" ><i class="fa-solid fa-copy"></i></button>
+                                       
+                                        <button id = "send" class=" uk-margin-left icon"><i class="fa-brands fa-facebook"></i></button>   
+                                        
+                                    </div>                                                       
+                                </div>
+                                <button id="newQuoteButton" class="uk-button">New Quote</button>
+                            </div>
+                        </footer>
+                    </div>                            
+               </div>
+            </div>
+        </div>
+    </div>  
+</body>
+<script src="./script.js" type="module"></script>
+</html>
